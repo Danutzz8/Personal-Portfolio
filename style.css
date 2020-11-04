@@ -70,12 +70,21 @@ nav a:hover{
     float: left;
     margin: 0;
 }
+
+@media (max-width: 355px) {
+    #about h1 {
+        margin-top: 30%;
+    }
+}
+
+
+
 @media (max-width: 550px) {
 	.logo > img {
 		margin: 0 auto;
 	}
-}
-@media (max-width: 550px) {
+
+
 	nav {
 		margin-top: 10px;
 		width: 100%;
@@ -152,15 +161,18 @@ nav a:hover{
 }
 
 .welcome-section > h1 {
-    margin-bottom: 10px;
-    font-size: 4rem;
+    margin-bottom: 30px;
+font-size: clamp(2rem, 5vmin, 7rem );
+    /* font-size: 4rem; */
+    
+
 }
 .welcome-section > ul > li {
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 2.5vmin, 3rem);
     line-height: 1.6;
-    color: rgb(252, 245, 247);
-    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 /* Projects section */
