@@ -71,52 +71,11 @@ nav a:hover{
     margin: 0;
 }
 
-@media (max-width: 355px) {
-    #about h1 {
-        margin-top: 30%;
-    }
-}
 
 
 
-@media (max-width: 550px) {
-	.logo > img {
-		margin: 0 auto;
-	}
 
 
-	nav {
-		margin-top: 10px;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-        padding: 0 50px;
-    }
-   
-}
-
-@media (max-width:650px) {
-    .welcome-section * {
-        display: flex;
-		flex-direction: column;
-		align-items: center;
-        text-align: center;
-        padding: 5px;
-       
-        
-        
-    }
-}
-
-@media (max-width:650px) {
-    .welcome-section h1 {
-        margin: 5px;
-        padding: 20px;
-        line-height: 3.5rem;
-    }
-}
 
 /* .logo {
     width: 50vw;
@@ -191,12 +150,7 @@ font-size: clamp(2rem, 5vmin, 7rem );
     line-height: 3rem;
 }
 
-@media (max-width: 600px) {
-    .projects-section h2 {
-      font-size: 2.5rem;
-      
-    }
-  }
+
 
   /* "Automagic" image grid using no media queries */
 
@@ -210,6 +164,12 @@ font-size: clamp(2rem, 5vmin, 7rem );
     margin-bottom: 6rem;
 }
 
+@media (max-width: 355px) {
+    #about h1 {
+        margin-top: 30%;
+    }
+}
+
 @media (max-width: 650px) {
     .projects-section {
       padding: 6rem 1rem;
@@ -218,6 +178,52 @@ font-size: clamp(2rem, 5vmin, 7rem );
     .projects-grid {
         grid-template-columns: 1fr;
       }
+}
+
+@media (max-width: 550px) {
+	.logo > img {
+		margin: 0 auto;
+	}
+
+
+	nav {
+		margin-top: 10px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+        padding: 0 50px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .projects-section h2 {
+      font-size: 2.5rem;
+      
+    }
+  }
+
+@media (max-width:650px) {
+    .welcome-section * {
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+        text-align: center;
+        padding: 5px;
+       
+        
+        
+    }
+}
+
+@media (max-width:650px) {
+    .welcome-section h1 {
+        margin: 5px;
+        padding: 20px;
+        line-height: 3.5rem;
+    }
 }
 
 .project {
