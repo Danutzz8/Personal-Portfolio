@@ -1,0 +1,16 @@
+:root {
+    --primaryColor:#e7e0f0;
+    --secondaryColor:#170233;
+    --headerColor: #a38dbe;
+    --borderColor: #bd5ef5;
+    --mainText: #1a0436;
+    --secondaryText: rgba(223, 220, 224, 0.877);
+    --previewColor:  rgba(126, 34, 187, 0.356);
+    --buttonColor: rgba(83, 83, 83, 0.849);
+    --buttonHover: rgba(158, 65, 65, 0.877);
+    --projectsTitleColor: rgba(212, 168, 241, 0.616);
+    --shadowColor: rgba(173, 180, 230, 0.5);
+    --contactColor:  rgba(204, 155, 236, 0.445);
+    --contactColorHover: rgba(159, 40, 238, 0.431);
+
+}

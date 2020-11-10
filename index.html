@@ -11,6 +11,8 @@
     crossorigin="anonymous"/>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lusitana&display=swap" rel="stylesheet"> -->
     <!-- <script src="https://kit.fontawesome.com/b2735ecd00.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" type="text/css" href="default.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="#">
     <title>Personal Portfolio Website - Marius Prutean</title>
    
 
@@ -30,12 +32,52 @@
 <body>
     <section id="welcome-section">
     <section id="about" class="welcome-section">
-        <h1>Marius D. Prutean <i class="fab fa-ello"></i></h1>
-        <ul>
-            <li>I'm a self taught web designer, developer eager to take new challenges on board and adapt thru a continuous learning process.</li>
-            <li>Front-end Developer for now, focused on writing clean and effective code, aiming to be a Full Stack Developer.</li>
-            <li>UI/UX Designer passionate about designing beautiful and friendly user experiences.</li>
-        </ul>
+        <h1> Hi, I'm Marius D. Prutean <i class="fab fa-ello"></i></h1>
+ 
+    <div class="intro-wrapper">  
+
+        <div class="left-column">
+            <a href="https://www.linkedin.com/in/marius-prutean-0292361a4/" target="_blank"><img id="profile-pic" src="./images/profile-p.jpg"></a>
+            <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+            <div id="theme-options-wrapper">
+                <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+            </div>
+            <p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+        </div>
+
+            <div class="right-column">
+
+                <div id="preview-shadow">
+                    <div id="preview">
+                        <div id="corner-tl" class="corner"></div>
+                        <div id="corner-tr" class="corner"></div>
+                        <h3>What I Do</h3>
+                        <p>I was a lead developer in a past life, now I enjoy Life.</p>
+                        <div id="corner-br" class="corner"></div>
+                        <div id="corner-bl" class="corner"></div>
+                    </div>
+                </div>
+            </div>
+
+           
+        
+
+    </div>  
+        <div class="more-extra">
+            <div class="more">
+                <h2><sup>More</sup> about me</h2>
+            </div>
+
+            <ul><hr><br>
+                <li>I'm a self taught web designer, developer eager to take new challenges on board and adapt thru a continuous learning process.</li>
+                <li>Front-end Developer for now, focused on writing clean and effective code, aiming to be a Full Stack Developer.</li>
+                <li>UI/UX Designer passionate about designing beautiful and friendly user experiences. </li>
+            </ul>
+        </div>
     </section>
     </section>
 
@@ -80,7 +122,9 @@
 
     <section id="contact" class="contact-section">
         <h2>Easy to be found</h2>
-        <p>Only a click away </p><i class="fas fa-mouse fa-3x"></i>
+        <div class="click-away">
+        <p>Only a click away </p><i class="fas fa-hand-point-down fa-3x"></i>
+        </div>
         <ul>
             <li><a href="https://www.linkedin.com/in/marius-prutean-0292361a4/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
             <li><a href="https://codepen.io/danutzz8" target="_blank"><i class="fab fa-codepen fa-3x"></i></a></li>
@@ -88,6 +132,7 @@
             <li><a href="https://twitter.com/danutzz88" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
             <li><a href="mailto:Marius.Prutean@outlook.com" target="_blank"><i class="fas fa-at fa-3x"></i></a></li>
         </ul>
+        <script type="text/javascript" src="./script.js"></script>
 
     </section>
 
