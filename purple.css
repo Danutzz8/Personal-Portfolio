@@ -1,5 +1,18 @@
 :root {
-    --primaryColor:#e7e0f0;
+    --primaryColor:#ffffff;
+    --secondaryColor:#a38dbe;
+    --headerColor: #6c4f919b;
+    --borderColor: #bd5ef5;
+    --mainText: rgb(0, 0, 0);
+    --secondaryText: #fff;
+    --previewColor: rgba(116, 67, 148, 0.493);
+    --buttonColor: rgba(73, 59, 82, 0.568);
+    --buttonHover: rgba(148, 12, 12, 0.877);
+    --shadowColor: rgba(255, 255, 255, 0.5);
+    --contactColor:  rgba(105, 12, 167, 0.616);
+    --contactColorHover: rgba(147, 113, 173, 0.616);
+    --backColor:rgba(77, 45, 114, 0.534);
+    /* --primaryColor:#e7e0f0;
     --secondaryColor:#170233;
     --headerColor: #a38dbe;
     --borderColor: #bd5ef5;
@@ -11,6 +24,6 @@
     --projectsTitleColor: rgba(212, 168, 241, 0.616);
     --shadowColor: rgba(173, 180, 230, 0.5);
     --contactColor:  rgba(204, 155, 236, 0.445);
-    --contactColorHover: rgba(159, 40, 238, 0.431);
+    --contactColorHover: rgba(159, 40, 238, 0.431); */
 
 }

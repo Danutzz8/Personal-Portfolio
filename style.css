@@ -10,11 +10,10 @@
     --previewColor:  rgba(255, 255, 255, 0.356);
     --buttonColor: rgba(83, 83, 83, 0.849);
     --buttonHover: rgba(148, 12, 12, 0.877);
-    --projectsTitleColor: rgba(219, 213, 213, 0.911);
     --shadowColor: rgba(255, 255, 255, 0.5);
     --contactColor:  rgba(163, 163, 163, 0.863);
-    --contactColorHover: rgba(233, 233, 233, 0.897) 
-
+    --contactColorHover: rgba(233, 233, 233, 0.897);
+    --backColor: rgba(0, 0, 0, 0.753);
 }
 
 
@@ -71,7 +70,7 @@ nav a {
 }
 
 nav a:hover{
-    color: var(--secondaryColor);
+    color: var(--mainText);
     
 }
 
@@ -92,17 +91,6 @@ nav a:hover{
 
 
 
-
-
-
-
-/* .logo {
-    width: 50vw;
-    
-} */
-
-
-
 /* Welcome section */
 
 .welcome-section  {
@@ -120,7 +108,7 @@ nav a:hover{
 
 .welcome-section::after {
     content: "";
-    background-color: var(--secondaryColor);
+    background-color: var(--backColor);
     position: absolute;
     top: 0;
     left: 0;
@@ -182,7 +170,7 @@ font-size: clamp(2rem, 5vmin, 7rem );
 }
 
 #profile-pic:hover {
-    border:4px solid var(--secondaryColor);
+    border:4px solid var(--primaryColor);
     transform: translateY(-40px)
     
 }
@@ -251,7 +239,7 @@ font-size: clamp(2rem, 5vmin, 7rem );
 }
 
 #preview-shadow {
-	background-color: var(--shadowColor);
+	background-color: var(--previewColor);
 	max-width: 300px;
 	height: 180px;
 	padding-left: 20px;
@@ -374,7 +362,7 @@ hr {
 
 
 .project {
-    background: linear-gradient(45deg, var(--secondaryColor), var(--primaryColor));
+    background: linear-gradient(45deg, #000, #fff);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
@@ -399,7 +387,7 @@ hr {
 .project-title {
     font-size: 1.5rem;
     padding: 20px 5px;
-    color: var(--projectsTitleColor);
+    color: var(--primaryColor);
 }
 
 a {
@@ -416,7 +404,7 @@ a {
 
 .btn-show-all {
     font-size: 2rem;
-    background: var(--headerColor);
+    background: var(--buttonColor);
     transition: background 0.3s ease-out;
 }
 
@@ -505,16 +493,16 @@ footer {
 
 /* Responsive */
 
-@media (max-width: 400px) {
-    #about h1 {
-        margin-top: 45%;
+@media (max-width:1050px) {
+    .welcome-section h1 {
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
-    .more-extra ul li {
-        font-size: 1rem;
-        margin: 0;
-        
+}
+@media (max-width:750px) {
+    .welcome-section h1 {
+        margin-top: 75px;
     }
-
 }
 
 @media (max-width: 650px) {
@@ -624,14 +612,68 @@ footer {
     }
 }
 
-@media (max-width:1050px) {
-    .welcome-section h1 {
-        margin-top: 50px;
-        margin-bottom: 20px;
+@media (max-width: 500px) {
+    #about h1 {
+        margin-top: 25%;
     }
+    .more-extra ul li {
+        font-size: 1rem;
+        margin: 0;
+        
+    }
+
+    .more-extra {
+        width: 80%;
+        height: 100%;
+        margin: 0 50px 0 50px;
+    }
+    .welcome-section  {
+        height: 130vh;
+    }
+
 }
-@media (max-width:750px) {
-    .welcome-section h1 {
-        margin-top: 75px;
+
+
+
+@media (max-width: 400px) {
+    #about h1 {
+        margin-top: 35%;
+    }
+    .more-extra ul li {
+        font-size: 1rem;
+        margin: 0;
+        
+    }
+
+    .more-extra {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+    }
+    .welcome-section  {
+        height: 135vh;
+    }
+
+}
+
+@media (max-width:350px) {
+    .right-column #preview {
+       margin-left: 20px;
+       margin-top: -20px;
+   }
+
+    .welcome-section  {
+        height: 140vh;
+    }
+
+    .more-extra {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 0 auto;
+    }
+    
+    .contact-section h2 {
+        color: var(--secondaryText);
+        text-shadow: 3px 3px var(--shadowColor);
     }
 }
