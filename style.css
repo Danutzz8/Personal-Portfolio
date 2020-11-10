@@ -178,10 +178,13 @@ font-size: clamp(2rem, 5vmin, 7rem );
 	object-fit: cover;
     border:2px solid var(--borderColor);
     border-radius: 20%;
+    transition: 0.5s;
 }
 
 #profile-pic:hover {
-    border:2px solid var(--secondaryText);
+    border:4px solid var(--secondaryColor);
+    transform: translateY(-40px)
+    
 }
 
 .left-column h5 {
