@@ -9,21 +9,8 @@
     --buttonColor: rgba(73, 59, 82, 0.568);
     --buttonHover: rgba(148, 12, 12, 0.877);
     --shadowColor: rgba(255, 255, 255, 0.5);
-    --contactColor:  rgba(105, 12, 167, 0.616);
-    --contactColorHover: rgba(147, 113, 173, 0.616);
+    --contactColor:  rgba(230, 222, 235, 0.616);
+    --contactColorHover: rgba(87, 41, 122, 0.616);
     --backColor:rgba(77, 45, 114, 0.534);
-    /* --primaryColor:#e7e0f0;
-    --secondaryColor:#170233;
-    --headerColor: #a38dbe;
-    --borderColor: #bd5ef5;
-    --mainText: #1a0436;
-    --secondaryText: rgba(223, 220, 224, 0.877);
-    --previewColor:  rgba(126, 34, 187, 0.356);
-    --buttonColor: rgba(83, 83, 83, 0.849);
-    --buttonHover: rgba(158, 65, 65, 0.877);
-    --projectsTitleColor: rgba(212, 168, 241, 0.616);
-    --shadowColor: rgba(173, 180, 230, 0.5);
-    --contactColor:  rgba(204, 155, 236, 0.445);
-    --contactColorHover: rgba(159, 40, 238, 0.431); */
-
+    
 }

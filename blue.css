@@ -2,7 +2,7 @@
     
     --primaryColor:#ffffff;
     --secondaryColor:#1e4ccaed;
-    --headerColor: #1e4cca9d;
+    --headerColor: #cfd5e49d;
     --borderColor: #211ecaed;
     --mainText: rgb(0, 0, 0);
     --secondaryText: #fff;
@@ -10,7 +10,7 @@
     --buttonColor: rgba(24, 56, 104, 0.849);
     --buttonHover: rgba(148, 12, 12, 0.877);
     --shadowColor: rgba(255, 255, 255, 0.5);
-    --contactColor:  rgba(14, 7, 112, 0.863);
-    --contactColorHover: rgba(198, 207, 218, 0.897);
+    --contactColor:  rgba(207, 206, 226, 0.863);
+    --contactColorHover: rgba(10, 76, 156, 0.897);
     --backColor:rgba(28, 74, 226, 0.575);
 }

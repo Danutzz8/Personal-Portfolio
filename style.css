@@ -657,13 +657,18 @@ footer {
 }
 
 @media (max-width:350px) {
+
+    #about h1 {
+        margin-top: 40%;
+    }
+
     .right-column #preview {
        margin-left: 20px;
        margin-top: -20px;
    }
 
     .welcome-section  {
-        height: 140vh;
+        height: 150vh;
     }
 
     .more-extra {
