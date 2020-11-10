@@ -132,6 +132,7 @@ font-size: clamp(2rem, 5vmin, 7rem );
     /* font-size: 4rem; */
     text-shadow: 3px 4px 3px var(--shadowColor);
     color: var(--mainText);
+    line-height: 2rem;
 
 }
 .welcome-section > ul > li {
