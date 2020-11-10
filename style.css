@@ -176,7 +176,7 @@ font-size: clamp(2rem, 5vmin, 7rem );
 	height: 200px;
 	width: 200px;
 	object-fit: cover;
-    border:2px solid var(--borderColor);
+    border:2px solid var(--primaryColor);
     border-radius: 20%;
 }
 
