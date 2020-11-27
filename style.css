@@ -16,6 +16,10 @@
     --backColor: rgba(0, 0, 0, 0.753);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 
 * {
