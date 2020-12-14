@@ -617,7 +617,7 @@ footer {
     }
 }
 
-@media (orientation: landscape) and (max-width: 780px) {
+@media (orientation: landscape) and (max-width: 810px) {
 
     .welcome-section {
        padding-top: 30em;
