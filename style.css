@@ -635,9 +635,9 @@ footer {
    
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) and (min-width: 425px){
     #about h1 {
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .more-extra ul li {
         font-size: 1rem;
@@ -651,14 +651,14 @@ footer {
         margin: 0 50px 0 50px;
     }
     .welcome-section  {
-        height: 130vh;
+        height: 160vh;
     }
 
-}
+} */
 
 
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     #about h1 {
         margin-top: 35%;
     }
@@ -677,9 +677,9 @@ footer {
         height: 135vh;
     }
 
-}
+} */
 
-@media (max-width:350px) {
+@media (max-width:500px) and (min-width: 299px) {
 
     #about h1 {
         margin-top: 40%;
@@ -691,7 +691,7 @@ footer {
    }
 
     .welcome-section  {
-        height: 150vh;
+        height: 170vh;
     }
 
     .more-extra {
