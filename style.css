@@ -132,7 +132,7 @@ nav a:hover{
 
 .welcome-section > h1 {
     margin-bottom: 30px;
-font-size: clamp(2rem, 5vmin, 7rem );
+    font-size: clamp(2rem, 5vmin, 7rem );
     /* font-size: 4rem; */
     text-shadow: 3px 4px 3px var(--shadowColor);
     color: var(--mainText);
@@ -520,6 +520,13 @@ footer {
       }
 }
 
+@media (max-width: 600px) {
+    .projects-section h2 {
+      font-size: 2.5rem;
+      
+    }
+  }
+
 @media (max-width: 450px) {
 	.logo > img {
 		margin: 0 auto;
@@ -537,13 +544,6 @@ footer {
     }
    
 }
-
-@media (max-width: 600px) {
-    .projects-section h2 {
-      font-size: 2.5rem;
-      
-    }
-  }
 
 @media (max-width:650px) {
     .welcome-section * {
@@ -615,6 +615,24 @@ footer {
         
         
     }
+}
+
+@media (orientation: landscape) and (max-width: 780px) {
+
+    .welcome-section {
+       padding-top: 30em;
+        max-height: 150vh;
+        overflow: scroll;
+        background: var(--backColor);
+    }
+    .welcome-section::after {
+        display: none;
+    }
+
+    .welcome-section > h1 {
+        text-shadow: 3px 4px 2px var(--secondaryText);
+    }
+   
 }
 
 @media (max-width: 500px) {
